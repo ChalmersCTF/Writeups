@@ -1,2 +1,2 @@
-# ChalmersCTF Writeups
-Collection of writeups by members of Chalmers CTF.
+# Insomni'hack
+Insomni'hack CTF event: https://ctftime.org/event/382
