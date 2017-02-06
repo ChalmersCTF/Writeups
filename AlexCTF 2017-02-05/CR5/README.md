@@ -1,5 +1,5 @@
-### Cr5: PRNG
-In this challenge we had to break a week Pesudo random number generator. We were provided a basic socket connection ```nc 195.154.53.62 7412``` to connect to.  When connecting you have to options either (1) guess or (2)get the next number.And apperantly we have to guess a sequence of 10 numbers
+# Cr5: PRNG
+In this challenge we had to break a week Pesudo random number generator. We were provided a basic socket connection ```nc 195.154.53.62 7412``` to connect to.  When connecting you have to options, (1) guess or (2) get the next number. And apperantly we have to guess a sequence of 10 numbers.
 
 The first part I went through was to collect some data by sending many (2) requests to try to find some pattern by performing statistical analysis and number analyasis and I wrote the following code:
 
@@ -25,7 +25,7 @@ finally:
     print >>sys.stderr, 'closing socket'
     sock.close()
 ```
-At this point I got nothing afer doing all my tricks of analysis. However, one of the other team mates tried to request a huge set of numbers after observing that the numbers are not more than 32 bits long. And then he noticed that the numbers eventually will repeat themselfs in the same sequence. so he wrote the following script and got the flag ``` ALEXCTF{f0cfad89693ec6787a75fa4e53d8bdb5}```
+At this point I got nothing after doing all my tricks of analysis. However, one of the other team mates tried to request a huge set of numbers after observing that the numbers are not more than 32 bits long. And then he noticed that the numbers eventually will repeat themselves in the same sequence. He wrote the following script and got the flag ``` ALEXCTF{f0cfad89693ec6787a75fa4e53d8bdb5}```
 
 ```python
 #!/usr/bin/env python
@@ -64,6 +64,3 @@ p.success("Done")
 log.info("Opening in interactive mode. Pray!")
 sock.interactive()
 ```
-
-
-
