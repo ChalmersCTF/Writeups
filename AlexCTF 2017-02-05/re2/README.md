@@ -1,4 +1,4 @@
-### Re2 : C++ is fun: [100]
+# Re2 : C++ is fun: [100]
 So you get a binary when running it you get a message to enter the flag. When entering somthing wrong it tells you to try again. However, since I know that the flag starts with "ALEXCTF{" I trief that and got the message "You should have the flag by now" then I thought that the original code might look somthing like this
 ```c++
 #include <stdio.h>
@@ -38,4 +38,4 @@ while "}" not in flag:
       break
 ```
 
-By running this script I got the flag ```ALEXCTF{W3_L0v3_C_W1th_CL45535}```
+By running this script I got the flag `ALEXCTF{W3_L0v3_C_W1th_CL45535}`
