@@ -1,7 +1,6 @@
 ### Re4: Python rev
 In this challenge we got a python byte-code file. So the first step was to get the source code for this file. By using *uncompyle2* we could get the python source code. That looked like this.
-```python 
-Marco Bresch [2:38 PM] 
+```python  
 import md5
 md5s = [174282896860968005525213562254350376167L,
  137092044126081477479435678296496849608L,
