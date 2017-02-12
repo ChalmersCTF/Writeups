@@ -73,7 +73,7 @@ root@kali:~/Downloads/RECOVERED_FILES/file_system/ts8U# xxd c0pmcYvxe | head -1
 and from ```JFIF``` it appears to be a JPEG file but it does not have the magical 
 number ```FFD8```, so I fire up hexeditor and add it.
 
-![Hexedit](/images/hexedit.PNG)
+![Hexedit](/Misc2/images/hexedit.PNG)
 
 I check the new file for the last time:
 ```sh
@@ -81,4 +81,4 @@ root@kali:~/Downloads/RECOVERED_FILES/file_system/ts8U# file c0pmcYvxe.jpg
 c0pmcYvxe.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 120x120, segment length 16, baseline, precision 8, 250x66, frames 1
 ```
  And here was our flag
-![flag](/images/c0pmcYvxe.jpg)
+![flag](/Misc2/images/c0pmcYvxe.jpg)
