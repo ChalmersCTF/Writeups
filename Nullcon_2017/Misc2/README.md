@@ -80,5 +80,5 @@ I check the new file for the last time:
 root@kali:~/Downloads/RECOVERED_FILES/file_system/ts8U# file c0pmcYvxe.jpg 
 c0pmcYvxe.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 120x120, segment length 16, baseline, precision 8, 250x66, frames 1
 ```
- And here was our flag
+ And here was our flag (Dont know why its not getting rednered here :P)
 ![flag](images/c0pmcYvxe.jpg)
