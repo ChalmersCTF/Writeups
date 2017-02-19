@@ -33,9 +33,10 @@ p=863653476616376575308866344984576466644942572246900013156919
 q=965445304326998194798282228842484732438457170595999523426901
 
 We generate our private key using rsatool
-'''sh
+
+```sh
 python rsatool.py -f DER -o priv.key -p <PVAL> -q <QVAL>
-'''
+```
 
 We decode the base64 flag to assci:
 ```sh
