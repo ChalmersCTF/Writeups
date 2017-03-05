@@ -12,6 +12,8 @@
 ##### Cryptography
 ##### Forensics
 * [Look Harder (50pts)](for1/README.md)
+* [Interstellar (150pts) ](for2/README.md)
+* [The Karaboudjan (150pts)](for3/README.md)
 ##### Misc
 ##### Reverse Engeneering
 ##### Steganography
