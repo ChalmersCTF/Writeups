@@ -12,8 +12,6 @@ Hint! When all strings are of the same length, it starts to make sense.
 * File : [avengers.gif](files/avengers.gif)
 
 
-![challenge](images/cryptopuzzle2.png)
-
 #### Solution:
 
 Unfortunately, I solved this challenge 10 minutes after the CTF was over. So the first step is to run ```binwalk``` or ```foremost```. Doing that I could see that there was a *zip file* included. 
