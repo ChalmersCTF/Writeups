@@ -21,7 +21,7 @@ Using burpsuite we could notice that there are two cookies getting set.
 
 The first one does not apper when looking at the browser cookies because its getting over written have the value:
 
-```2541d938b0a58946090d7abdde0d3890_b8e2e0e422cae4838fb788c891afb44```
+**2541d938b0a58946090d7abdde0d3890_b8e2e0e422cae4838fb788c891afb44**
 
 using [hashkiller ]( https://hashkiller.co.uk/md5-decrypter.aspx ) we got :
 
