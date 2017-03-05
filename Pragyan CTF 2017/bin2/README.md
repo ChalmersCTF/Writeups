@@ -13,7 +13,9 @@ NOTE :- Please enclose the flag in the format pragyanctf{<flag>}.
 #### Solution:
 
 After decompressing the zip file, I could see three ***.class*** files, which are java compiled binaries. 
+
 ![files](images/files.png)
+
 So I decompiled them using [http://www.javadecompilers.com]( http://www.javadecompilers.com) and got [the java files](files/decompiled.zip).
 The biggiest file **nq2eige2ig2323f.java** was the most interesting one.  It had:
 * An array of characters

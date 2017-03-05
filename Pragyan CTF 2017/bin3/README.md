@@ -15,17 +15,26 @@ They have come to you, asking for your help to fix their issue. Can you help the
 NOTE :- Please enclose the flag in the format pragyanctf{<flag>}.
 
 ```
+
 * File : [validation](files/validation)
+
 
 #### Solution:
 
 Running ```file``` on the binary revealed that it’s an ELF64 binary. Using IDA pro I could see that the main function calls another function called ```verify_name_age()```
+
 ![main](images/main.png)
+
 When running the binary it asks for the name then age then outputs that we are not allowed to the roller coaster whatever the age was. Looking at the verification function I noticed that there is a call just before the verification to a function called ```f1()```
+
 ![main](images/verify.png)
+
 Looking at the ```f1()``` function it tells that it jumps to yet another function:
+
 ![main](images/f1.png)
+
 The next function was ```f6()``` this function did a bunch of XOR using to numbers. And after finishing that it calls another function that does the same.
+
 ![main](images/f6.png)
 
 Tracing these function and writing down the numbers I came up with this map:
