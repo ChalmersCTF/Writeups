@@ -1,6 +1,6 @@
-# Pragyan CTF
+# Pragyan CTF 2017 Writeups
 
-## Final rank: 11th
+### Final team rank: 11th
 
 ![scoreboard](scoreboard.png)
 
