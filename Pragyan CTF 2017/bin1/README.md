@@ -25,5 +25,4 @@ The function looked like this:
 
 ![fun](images/fun.png)
 
-We tried to submit the flag as ```pragyanctf{kdudpeh}``` but it did not work. Looking at the released hints we realized we should use the SHA1 representation of the word. And we got the flag.
-```pragyanctf{80ee2a3fe31da904c596d993f7f1de4827c1450a}```
+We tried to submit the flag as ```pragyanctf{kdudpeh}``` but it did not work. Looking at the released hints we realized we should use the SHA1 representation of the word. And we got the flag. ```pragyanctf{80ee2a3fe31da904c596d993f7f1de4827c1450a}```
