@@ -21,4 +21,6 @@ Using this tool:
 
 ![image](files/evil.jpg)
 
+Note: image might not open or show in github :P
+
 flag is ```pragyanctf{HelloFriend}```
