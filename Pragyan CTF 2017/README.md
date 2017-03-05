@@ -6,11 +6,12 @@
 
 ## Problems:
 ##### Binary Exploitation
-*  [Answer to Everything (50pts)](bin1/README.md)
-*  [Shane and the binary files (100pts)](bin2/README.md)
-*  [Roller Coaster Ride (150pts)](bin3/README.md)
+* [Answer to Everything (50pts)](bin1/README.md)
+* [Shane and the binary files (100pts)](bin2/README.md)
+* [Roller Coaster Ride (150pts)](bin3/README.md)
 ##### Cryptography
 ##### Forensics
+* [Look Harder (50pts)](for1/README.md)
 ##### Misc
 ##### Reverse Engeneering
 ##### Steganography
