@@ -1,6 +1,7 @@
 # Pragyan CTF
 
-```Final rank: 11th```
+## Final rank: 11th
+
 ![scoreboard](scoreboard.png)
 
 
