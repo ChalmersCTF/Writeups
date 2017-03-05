@@ -17,7 +17,7 @@ file.kdb: Keepass password database 1.x KDB, 3 groups, 4 entries, 50000 key tran
 
 ```
 
-So we generate [passwordlist](files.combos.txt) using the regex
+So we generate [passwordlist](files/combos.txt) using the regex
 
 ```python
 #!/usr/bin/env python
@@ -31,7 +31,7 @@ with open("combos.txt","w+") as file:
 		file.write("".join(x)+"\n")
 ```
 
-extract the key from the file 
+Extract the key from the file and run john to bruteforce it.
 
 ```sh
 $ mv file file.kdb
@@ -44,3 +44,9 @@ file.kdb:k18
 1 password hash cracked, 0 left
 
 ```
+
+That revealed the password ```k18```
+
+Opening the file using [http://keepass.info/download.html](http://keepass.info/download.html) we could see the flag.
+
+![flag](files/cap.png)

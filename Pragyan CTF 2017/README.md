@@ -35,3 +35,5 @@
 *  [New Avenger (300pts)](steg4/README.md)
 
 ##### Web
+*  [Give The Guy (100pts)](web1/README.md)
+*  [Supreme Leader (150pts) ](web2/README.md)
