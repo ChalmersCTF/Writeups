@@ -17,4 +17,4 @@ NOTE :- Please enclose the flag in the format pragyanctf{<flag>}.
 
 Running **Affine-cipher** revealed the flag. lol :D
 
-[flag](images/cap.png)
+![flag](images/cap.png)
