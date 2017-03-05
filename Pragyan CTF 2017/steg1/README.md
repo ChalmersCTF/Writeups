@@ -7,13 +7,13 @@ Don't search blindly. Look carefully and you will find what you are looking for.
 Hint! This challenge is specially made for blind persons :P
 
 ```
-* File : [star-wars.jpg](images/star-wars.jpg)
+* File : [star-wars.jpg](files/star-wars.jpg)
 
 #### Solution:
 
 Nothing speacial with the image when you look at it:
 
-![star-wars.jpg](images/star-wars.jpg)
+![star-wars.jpg](files/star-wars.jpg)
 
 Running strings reveal a bit encoded thing with 54 bits:
 ```
