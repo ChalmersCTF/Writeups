@@ -12,6 +12,10 @@
 * [Roller Coaster Ride (150pts)](bin3/README.md)
 
 ##### Cryptography
+*  [Game of Fame (50pts)](cr1/README.md)
+*  [Evil Corp (100pts)](cr2/README.md)
+*  [Kane Chronicles (100pts)](cr3/README.md) [NOT SOLVED]
+*  [The Jigsaw Killer (100pts)](cr4/README.md) [NOT SOLVED]
 
 ##### Forensics
 * [Look Harder (50pts)](for1/README.md)
@@ -19,6 +23,7 @@
 * [The Karaboudjan (150pts)](for3/README.md)
 
 ##### Misc
+*  [The Vault (75pts)](misc2/README.md)
 
 ##### Reverse Engeneering
 *  [MI6 (100pts) ](rev1/README.md)
@@ -26,7 +31,6 @@
 ##### Steganography
 *  [Star Wars (100pts) ](steg1/README.md)
 *  [Black Is The New Rose (150pts) ](steg2/README.md) [NOT SOLVED]
-*  [Star Wars (100pts) ](steg1/README.md)
 *  [Lost Friends (300pts)  ](steg3/README.md)
 *  [New Avenger (300pts)](steg4/README.md)
 
