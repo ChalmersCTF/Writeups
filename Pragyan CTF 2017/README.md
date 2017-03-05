@@ -20,7 +20,10 @@
 
 ##### Misc
 ##### Reverse Engeneering
+*  [MI6 (100pts) ](rev1/README.md)
 ##### Steganography
+*  [Star Wars (100pts) ](steg1/README.md)
+*  [Black Is The New Rose (150pts) ](steg2/README.md) [NOT SOLVED]
 *  [Star Wars (100pts) ](steg1/README.md)
 *  [Lost Friends (300pts)  ](steg3/README.md)
 *  [New Avenger (300pts)](steg4/README.md)
