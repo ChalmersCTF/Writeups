@@ -1,5 +1,5 @@
 ## New Avenger (300pts)
-By: *[noras](https://twitter.com/NorasSalman)* from [ChalmersCTF](http://chalmersctf.se)
+By: [noras] from [ChalmersCTF](http://chalmersctf.se)
 
 ##### Challenge Description : 
 ```
