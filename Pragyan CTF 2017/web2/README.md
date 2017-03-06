@@ -23,8 +23,10 @@ The first one does not apper when looking at the browser cookies because its get
 
 **2541d938b0a58946090d7abdde0d3890_b8e2e0e422cae4838fb788c891afb44**
 
-using [hashkiller ]( https://hashkiller.co.uk/md5-decrypter.aspx ) we got :
+Using [hashkiller ]( https://hashkiller.co.uk/md5-decrypter.aspx ) we got:
 
 ![hash](images/hash.png)
 
-flag: ```pragyanctf{send_nukes}```
+Since the description of the challenge said that we were supposed to hack the database, we were trying for a very long time to figure out how `send_nukes` was significant for the objective. A couple of hours later we simply entered the flag as `pragyanctf{send_nukes}` and it turned out to be correct...
+
+**Flag:** ```pragyanctf{send_nukes}```

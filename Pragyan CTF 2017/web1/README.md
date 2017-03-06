@@ -15,6 +15,6 @@ NOTE :- Please enclose the flag in the format pragyanctf{<flag>}.
 
 #### Solution:
 
-Running **Affine-cipher** revealed the flag. lol :D
+After brute forcing the challenge, probing for hidden directories/files, it turned out that if you simply run **Affine-cipher** on the ciphertext, you get the flag...
 
 ![flag](images/cap.png)
