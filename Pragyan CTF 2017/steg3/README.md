@@ -17,6 +17,7 @@ only one who can help her find them.
 #### Solution:
 
 Opening the image with ***stegsolve*** revealed three images in the RGB channels.
-![lost_friends.png](images/lost_friends.png)
+
+![lost_friends.png](images/solved.png)
 
 Running strings I found the hint that said 'Director Maybe?'. It was only about googling the director of ```Alvin and the Chipmunks``` and the flag was ```pragyanctf{MikeMitchell}```
