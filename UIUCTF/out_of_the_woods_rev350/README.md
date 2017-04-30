@@ -11,7 +11,6 @@ It looks like this python script was run through a custom packer. It's just Pyth
 https://www.youtube.com/watch?v=y8qQsXpcZXA
 ```
 
-
 This was fun little challenge that our team solved together. You are presented with the file `packed.py` that contains the following code:
 
 ```
@@ -77,7 +76,7 @@ This revealed more embedded data:
 None
 ```
 
-By substituting the YET_eval_code with the key `CLEAR` and the above base64 encoded data, we get an other embedded python program. This process continues 3 more times until we reach the last and final code. The disassembled code:
+By substituting the `YET_eval_code` function call with the key `CLEAR` and with the above base64 encoded data, we get an other embedded python program. This process continues 3 more times until we reach the last and final program. This is how it looks like disassembled:
 
 ```
 1           0 LOAD_CONST               0 (1338)
