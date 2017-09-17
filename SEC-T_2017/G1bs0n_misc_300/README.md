@@ -34,7 +34,7 @@ Now that the system has been identified, the hunt for the flag can begin!
 
 ## RECON
 
-I begun by extracting a list of all files present in the dump.
+I began by extracting a list of all files present in the dump.
 ```
 vol.py -f G1bs0n --profile=Win7SP0x64 filescan > filescan.txt
 ```
@@ -97,6 +97,4 @@ The .zip file contained three files (run.bat, run.ps1, run.reg) with some intere
 
 Now we have the flag, but it doesn't look correct: `_X43EUC_3H64YC{GPRF}JGS_3G4X_GH0_3Z`
 
-Reversing the flag and applying ROT13 returned the flag, but in the wrong order: `M3_0UT_K4T3_FTW}SECT{PL46U3_PHR34K_`, easy fix!!
-
-The final flag: `SECT{PL46U3_PHR34K_M3_0UT_K4T3_FTW}`
+Reversing the flag and applying ROT13 returned the flag in the wrong order `M3_0UT_K4T3_FTW}SECT{PL46U3_PHR34K_`. By moving `M3_0UT_K4T3_FTW}` to the end of the string we get the correct flag: `SECT{PL46U3_PHR34K_M3_0UT_K4T3_FTW}`
